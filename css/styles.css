@@ -1,0 +1,240 @@
+:root {
+--accent-color: #2196F3;
+
+}
+
+
+body {
+ /* color:#212121; */
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* ---------------------------------HEADER--------------------------*/
+
+.link-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.20;
+}
+
+.logo-web {
+color: #2196F3; 
+}
+
+.logo-studio {
+color: #000000;
+}
+
+.header-item {
+color: #212121;
+}
+.header-link {
+color: inherit;
+font-weight: 500;
+font-size: 14px;
+line-height:1.10;
+letter-spacing: 0.02em
+}
+
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color)
+}
+
+.mail {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.10;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.mail:hover,
+.mail:focus {
+color: var(--accent-color)
+}
+
+.tel {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.10;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.tel:hover,
+.tel:focus {
+color: var(--accent-color)
+}
+
+/* ----------------------Секция заказать услуги---------------- */
+.services {
+background-color: #2F303A;;
+}
+
+.services-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.services-btn {
+font-family: 'Roboto';
+font-style: normal;
+color: #FFFFFF;
+background-color: #F5F4FA;
+cursor: pointer;
+border: none;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.90;
+/* display: flex;
+align-items: center;
+text-align: center; */
+letter-spacing: 0.06em;
+background-color: #2196F3;
+}
+
+.services-btn:hover {
+color: #FFFFFF;
+background-color: #188CE8;
+}
+
+/* ----------------------------Преимущества-------------------- */
+
+.advantages-sicret-title {
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+.advantages-title-list {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.10;
+text-transform: uppercase;
+color: #212121;
+}
+.text-after-title {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.70;
+}
+
+/* -------------------------Чем мы занимаемся---------------- */
+
+.our-work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: #212121;    
+}
+
+/* ---------------------------Наша команда----------------------- */
+
+.our-team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: #212121;
+}
+
+.our-team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* text-align: center; */
+color: #212121;
+}
+.text-after-name {
+font-size: 16px;
+line-height: 1.18px;
+/* text-align: center; */
+}
+
+/* ---------------------------------FOOTER-------------------- */
+
+.footer-logo-studio {
+font-family: 'Raleway';
+font-style: normal;
+color: #FFFFFF;
+}
+
+
+.footer {
+background-color:#2F303A;
+}
+
+.address {
+font-family: 'Roboto';
+font-style: normal;
+font-size: 14px;
+line-height: 1.70;
+color: #FFFFFF;
+}
+
+/* -----------------------------2page PORTFOLIO--------------- */
+
+/* -----------------------------portfilio-nav----------------- */
+
+.nav-btn {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.60;
+color: #212121;
+background-color: #F5F4FA;
+cursor: pointer;
+border: none;
+}
+
+.nav-btn:hover,
+.nav-btn:focus {
+color: #FFFFFF;
+background-color: #2196F3;    
+}
+
+/* ---------------------------------POSTERS----------------- */
+
+.posters-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.text-ander-img {
+font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+line-height: 1.18;
+}
