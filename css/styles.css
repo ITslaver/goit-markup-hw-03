@@ -385,7 +385,6 @@ font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
 color: #212121;
-padding-left: 24px;
 padding-bottom: 10px;
 }
 .text-ander-img {
@@ -393,12 +392,11 @@ font-family: 'Roboto';
 font-style: normal;
 font-size: 16px;
 line-height: 1.18;
-padding-left: 24px;
 }
 
 .content-posters {
 border-width: 0px 1px 1px 1px;
 border-style: solid;
 border-color: #EEEEEE;
-padding: 20px 10px;
+padding: 20px 24px;
 }
