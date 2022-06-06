@@ -370,13 +370,26 @@ margin-right: 11px;
 .posters-list {
 display: flex;
 flex-wrap: wrap;
-gap: 30px;
 }
 
 .posters-block {
+width: calc((100% - 60px) / 3);
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+.posters-block:nth-child(3n) {
+margin-right: 0;
+}
+
+.posters-block:nth-child(n + 6) {
+margin-bottom: 0;
+}
+
+/* .posters-block {
 width: 370px;
 height: 404px;
-}
+} */
 
 
 .posters-title {
