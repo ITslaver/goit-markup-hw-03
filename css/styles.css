@@ -148,7 +148,7 @@ padding-bottom: 200px;
 }
 
 .services-content {
-width: 696px;
+max-width: 696px;
 text-align: center;
 margin: 0 auto; 
 }
@@ -205,7 +205,10 @@ margin: -1px;
 
 .advantages-list {
 display: flex;
-/* padding-top: 94px; */
+}
+
+.advantages-text-list {
+width: calc((100% - 90px) / 4);
 }
 
 .advantages-text-list {
