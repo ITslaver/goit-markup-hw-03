@@ -211,10 +211,6 @@ display: flex;
 width: calc((100% - 90px) / 4);
 }
 
-.advantages-text-list {
-max-width: 270px;
-}
-
 .advantages-text-list:not(:last-child){
 margin-right: 30px;
 }
