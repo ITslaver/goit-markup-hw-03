@@ -39,7 +39,7 @@ margin: 0 auto;
 /* outline: 1px solid red; */
 }
 
-.team-section {
+.section {
 padding-top: 94px;
 padding-bottom: 94px;   
 }
@@ -187,7 +187,7 @@ background-color: #188CE8;
 /* ----------------------------Преимущества-------------------- */
 
 .advantages {
-padding-top: 94px;
+padding-bottom: 0px;
 }
 
 .sicret-title {
@@ -250,8 +250,8 @@ margin-right: 30px;
 
 .our-team {
 background-color: #F5F4FA;
-padding-top: 94px;
-padding-bottom: 94px;
+/* padding-top: 94px;
+padding-bottom: 94px; */
 }
 
 .content-team {
