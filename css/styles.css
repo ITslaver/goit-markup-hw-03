@@ -50,6 +50,7 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 color: #212121;
+margin-bottom: 50px;
 }
 
 /* ---------------------------------HEADER--------------------------*/ 
@@ -59,8 +60,6 @@ display: flex;
 align-items: center;
 }
 .header {
-/* padding-top: 32px;
-padding-bottom: 32px; */
 border: 1px solid #ECECEC;
 }
 
@@ -75,7 +74,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.20;
-margin-right: 93px;
 }
 
 .logo-web {
@@ -84,12 +82,11 @@ color: #2196F3;
 
 .logo-studio {
 color: #000000;
+margin-right: 93px;
 }
 
 .header-list {
 display: flex;
-padding-top: 32px;
-padding-bottom: 32px;
 }
 
 .header-item:not(:last-child) {
@@ -101,6 +98,9 @@ color: #212121;
 }
 
 .header-link {
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 color: inherit;
 font-weight: 500;
 font-size: 14px;
@@ -121,23 +121,11 @@ margin-left: auto;
 display: flex;
 }
 
-.mail {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.10;
-letter-spacing: 0.02em;
-color: #757575;
-padding-right: 50px;
+.contacts:not(:last-child) {
+margin-right: 50px;
 }
 
-.mail:hover,
-.mail:focus {
-color: var(--accent-color)
-}
-
-.tel {
+.contacts-link {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -147,8 +135,8 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-.tel:hover,
-.tel:focus {
+.contacts-link:hover,
+.contacts-link:focus {
 color: var(--accent-color)
 }
 
@@ -246,9 +234,11 @@ line-height: 1.70;
 
 .our-work-list {
 display: flex;
-padding-top: 50px;
 }
 
+.our-work-img {
+width: calc((100% - 60px) / 3);
+}
 .our-work-img:not(:last-child){
 margin-right: 30px;
 }
@@ -262,8 +252,7 @@ padding-bottom: 94px;
 }
 
 .content-team {
-width: 270px;
-height: 108px;
+padding-bottom: 30px;
 padding-top: 30px;
 border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
@@ -272,13 +261,16 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.our-team-block:not(:last-child){
-margin-right: 30px;
-}
-
 .our-team-list {
 display: flex;
-margin-top: 50px;
+}
+
+.our-team-block {
+width: calc((100% - 90px) / 4);
+}
+
+.our-team-block:not(:last-child){
+margin-right: 30px;
 }
 
 .our-team-name {
@@ -292,7 +284,7 @@ margin-bottom: 10px;
 
 .text-after-name {
 font-size: 16px;
-line-height: 1.19px;
+line-height: 1.19;
 text-align: center;
 
 }
@@ -385,12 +377,6 @@ margin-right: 0;
 .posters-block:nth-child(n + 6) {
 margin-bottom: 0;
 }
-
-/* .posters-block {
-width: 370px;
-height: 404px;
-} */
-
 
 .posters-title {
 font-weight: 700;
